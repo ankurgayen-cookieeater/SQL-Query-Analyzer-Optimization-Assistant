@@ -1,6 +1,6 @@
 import mysql.connector as mycon
 
-# DB CONNECTION
+
 conn = mycon.connect(
     host="localhost",
     user="root",
@@ -11,7 +11,7 @@ conn = mycon.connect(
 cursor = conn.cursor()
 
 
-# ANALYZER FUNCTION
+
 def analyze_query(query):
     print("\n========== ANALYSIS ==========")
 
